@@ -43,5 +43,5 @@ for idx, post in enumerate(posts):
 
 for idx, filenames in enumerate(filenames, start=0):
     r = requests.get(urls[idx])
-    with open("./dogs/" + str(idx) + ".jpg","wb") as f:
+    with open("#directory for the output images" + str(idx) + ".jpg","wb") as f:
         f.write(r.content)
